@@ -1,0 +1,40 @@
+{
+  "name": "memory-grid-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -wd",
+    "serve": "serve"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^3.19.0",
+    "lodash": "npm:lodash@^4.11.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "serve": "^5.1.4",
+    "webpack": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^19.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "nodemon": "^1.11.0",
+    "regenerator-runtime": "^0.10.5"
+  }
+}
